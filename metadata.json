@@ -1,0 +1,18 @@
+{
+    "id": "3798b2aa47d04c24a09291d64e80c1c4",
+    "name": "Fast Reload (F5)",
+    "installSource": "local",
+    "image": "logo.png",
+    "banner": "banner.png",
+    "libraryLogo": "logo.png",
+    "author": "frz13",
+    "version": "1.0.0",
+    "description": "Adds a minimal one-click reload button to the top navigation bar.",
+    "css": "style.css",
+    "script": "script.js",
+    "type": "script",
+    "tags": [
+        "script"
+    ],
+    "dependencies": []
+}

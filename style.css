@@ -1,0 +1,52 @@
+#sr-reload-root {
+    display: inline-flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    -webkit-app-region: no-drag !important;
+}
+
+#sr-reload-button {
+    background: transparent !important;
+    border: none !important;
+    width: 46px !important;
+    height: 100% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    color: #ffffff !important;
+    transition: background-color 0.1s ease !important;
+    -webkit-app-region: no-drag !important;
+    outline: none !important;
+    padding: 0 !important;
+}
+
+#sr-reload-button:hover {
+    background-color: var(--ym-controls-color-secondary-default-hovered) !important;
+}
+
+#sr-reload-button svg {
+    display: block !important;
+    fill: currentColor !important;
+    transform-origin: center center !important;
+    /* Убираем transition отсюда, чтобы вращение было только по классу */
+}
+
+/* КЛАСС АНИМАЦИИ: запускается через JS */
+.sr-spinning {
+    animation: sr-rotate 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards !important;
+}
+
+@keyframes sr-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+Свернуть (47 строк)
+style.css
+style.css (2 кб)
+2 кб
